@@ -92,7 +92,7 @@ This project outlines the implementation of on-premises Active Directory within 
 </p>
 <p>
 
-  -   Join Client-1 to your domain (mydomain.com)
+ -   Join Client-1 to your domain (mydomain.com)
       - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
       - From the Azure Portal, restart Client-1
       - Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
@@ -107,7 +107,13 @@ This project outlines the implementation of on-premises Active Directory within 
 ![thisismyimage]()
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ -   Setup Remote Desktop for non-administrative users on Client-1
+     - Log into Client-1 as mydomain.com\jane_admin and open system properties
+     - Click “Remote Desktop”
+     - Allow “domain users” access to remote desktop
+     - Now log into Client-1 as a normal, non-administrative user now
+
 </p>
 <br />
 
@@ -116,15 +122,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![thisismyimage]()
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-  
-![thisismyimage]()
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ -   Create a bunch of additional users and attempt to log into client-1 with one of the users
+     - Login to DC-1 as jane_admin
+     - Open PowerShell_ise as an administrator
+     - Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+     - Run the script and observe the accounts being created
+     - When finished, open ADUC and observe the accounts in the appropriate OU
+     - Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
 </p>
 <br />
