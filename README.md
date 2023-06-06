@@ -92,7 +92,12 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <p>
   
-![thisismyimage]()
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.04.04%20PM.jpeg)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.05.54%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.06.19%20PM.jpeg)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.09.53%20PM.jpeg)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.11.34%20PM.jpeg)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.40.09%20PM.jpeg)
 </p>
 <p>
 
