@@ -46,17 +46,24 @@ This project outlines the implementation of on-premises Active Directory within 
 <p>
   
 ![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.25.30%20PM.jpeg?raw=true)
-![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.28.53%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.41.22%20PM.jpeg?raw=true)
+  
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.41.30%20PM.jpeg?raw=true)
 </p>
 <p>
 
-  -   Set Domain Controller’s NIC Private IP address to be static on Client 1's DNS
+  -   Set Domain Controller’s NIC Private IP address to be static
       -  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
 </p>
 <br />
 
 <p>
-![thisismyimage]()
+  
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-04%20at%204.30.20%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.45.36%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.49.48%20PM.jpeg?raw=true)  
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.53.43%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%203.54.19%20PM.jpeg?raw=true)
 </p>
 <p>
 
