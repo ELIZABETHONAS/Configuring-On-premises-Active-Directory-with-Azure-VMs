@@ -134,10 +134,10 @@ This project outlines the implementation of on-premises Active Directory within 
 <p>
 
  -   Setup Remote Desktop for non-administrative users on Client-1
-     - Log into Client-1 as mydomain.com\jane_admin and open system properties
+     - Log into Client-1 as mydomain.com\elizabeth.onas and open system properties
      - Click “Remote Desktop”
      - Allow “domain users” access to remote desktop
-     - Now log into Client-1 as a normal, non-administrative user now
+     - Now log into Client-1 as a normal, non-administrative usernow
 
 </p>
 <br />
