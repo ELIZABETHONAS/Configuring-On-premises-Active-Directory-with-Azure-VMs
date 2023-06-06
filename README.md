@@ -112,13 +112,11 @@ This project outlines the implementation of on-premises Active Directory within 
 </p>
 <br />
 
-<p>
-  
-![thisismyimage]()
-![thisismyimage]() 
-![thisismyimage]()
-![thisismyimage]()  
-![thisismyimage]()  
+<p> 
+<img src="https://imgur.com/36b2SNb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/lWoask3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://imgur.com/xIcTTRp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/JmyWoZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
 
