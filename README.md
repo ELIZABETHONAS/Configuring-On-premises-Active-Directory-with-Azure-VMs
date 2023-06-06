@@ -102,7 +102,7 @@ This project outlines the implementation of on-premises Active Directory within 
       - Create a new employee named “Elizabeth.Onas” (same password) with the username of “Elizabeth.Onas”
       - Add Elizabeth.Onas to the “Domain Admins” Security Group
       - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\Elizabeth.Onas”
-      - User Elizabeth.Onas as your admin account from now on
+      - Use Elizabeth.Onas as your admin account from now on
 
 </p>
 <br />
