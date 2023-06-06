@@ -29,25 +29,29 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <p>
   
-![thisismyimage]()
+![thisismyimage](https://raw.githubusercontent.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/main/Screenshot%202023-06-03%20at%203.26.54%20PM.jpeg?token=GHSAT0AAAAAACDPBLECI3GWCLR6SE4IY5VAZD6YGFQ)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.29.14%20PM.jpeg?raw=true)
+![thisismyimage]
+
 </p>
 <p>
 
-  -   Setup Resources in Azure, for this project that will be "ADLAB"
-     -  Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+  -  Setup Resources in Azure, for this project that will be "ADLAB"
+     -  Create the Domain Controller VM (Windows Server 2022) named “DC1”
      -  Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+     -  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group (ADLAB )and Vnet that was created in Step 1.a
 </p>
 <br />
 
 <p>
   
-![thisismyimage]()
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.25.30%20PM.jpeg?raw=true)
+![thisismyimage](https://github.com/ELIZABETHONAS/Configuring-On-premises-Active-Directory-with-Azure-VMs/blob/main/Screenshot%202023-06-03%20at%205.28.53%20PM.jpeg?raw=true)
 </p>
 <p>
 
- -  Set Domain Controller’s NIC Private IP address to be static
-     -  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group (ADLAB )and Vnet that was created in Step 1.a
-     -  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+  -   Set Domain Controller’s NIC Private IP address to be static on Client 1's DNS
+      -  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
 </p>
 <br />
 
