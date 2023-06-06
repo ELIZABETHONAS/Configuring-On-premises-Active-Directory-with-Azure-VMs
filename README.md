@@ -36,10 +36,18 @@ This project outlines the implementation of on-premises Active Directory within 
   -   Setup Resources in Azure, for this project that will be "ADLAB"
      -  Create the Domain Controller VM (Windows Server 2022) named “DC-1”
      -  Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
-     -  Set Domain Controller’s NIC Private IP address to be static
+</p>
+<br />
+
+<p>
+  
+![thisismyimage]()
+</p>
+<p>
+
+ -  Set Domain Controller’s NIC Private IP address to be static
      -  Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group (ADLAB )and Vnet that was created in Step 1.a
      -  Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
-
 </p>
 <br />
 
@@ -125,12 +133,12 @@ This project outlines the implementation of on-premises Active Directory within 
 <p>
 
  -   Create a bunch of additional users and attempt to log into client-1 with one of the users
-     - Login to DC-1 as jane_admin
+     - Login to DC-1 as elizabeth.onas
      - Open PowerShell_ise as an administrator
      - Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
      - Run the script and observe the accounts being created
      - When finished, open ADUC and observe the accounts in the appropriate OU
-     - Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+     - The End
 
 </p>
 <br />
