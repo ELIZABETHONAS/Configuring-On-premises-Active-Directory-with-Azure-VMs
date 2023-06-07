@@ -129,22 +129,6 @@ This project outlines the implementation of on-premises Active Directory within 
 </p>
 <br />
 
-<p>
-  
-<img src="https://imgur.com/FdqWddb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/FdqWddb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://imgur.com/FdqWddb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
- -   Setup Remote Desktop for non-administrative users on Client-1
-     - Log into Client-1 as mydomain.com\elizabeth.onas and open system properties
-     - Click “Remote Desktop”
-     - Allow “domain users” access to remote desktop
-     - Now log into Client-1 as a normal, non-administrative usernow
-
-</p>
-<br />
 
 <p>
   
