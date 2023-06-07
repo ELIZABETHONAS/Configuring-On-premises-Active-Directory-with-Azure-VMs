@@ -20,10 +20,14 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- 
-- 
-- 
-- 
+- Installation of Azure VMs 
+- Virtual Network Uniformity
+- DNS Custom Configuration
+- ICMPV4 Activation
+- Server Manager Editorial
+- Remote Desktop Configuration
+- Domain Controller 
+- Active Directory Admin/User Deployment
 
 <h2>Deployment and Configuration Steps</h2>
 
