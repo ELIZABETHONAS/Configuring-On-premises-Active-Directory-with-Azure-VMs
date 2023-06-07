@@ -148,16 +148,17 @@ This project outlines the implementation of on-premises Active Directory within 
 
 <p>
   
-![thisismyimage]()
+<img src="https://imgur.com/hr8rsad.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9REg9bA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/VDOpYJe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- -   Create a bunch of additional users and attempt to log into client-1 with one of the users
-     - Login to DC-1 as elizabeth.onas
-     - Open PowerShell_ise as an administrator
-     - Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
-     - Run the script and observe the accounts being created
-     - When finished, open ADUC and observe the accounts in the appropriate OU
+ -   Setup Remote Desktop for non-administrative users on Client-1
+     - Log into Client-1 as mydomain.com\elizabeth.onas and open system properties
+     - Click “Remote Desktop”
+     - Allow “domain users” access to remote desktop
+     - You can now log into Client-1 as a normal, non-administrative user now
      - The End
 
 </p>
